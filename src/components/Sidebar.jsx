@@ -18,8 +18,8 @@ const Sidebar = () => {
                 </div>
             </div>
            
-            <div className="" >
-                <img src={subscrib_image} alt="" />
+            <div className="mt-4 xl:mt-0" >
+                <img className="w-full" src={subscrib_image} alt="" />
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const SubNavber = () => {
     return (
         <>
             {/* Small Screen Navbar */}
-            <div className='bg-black  text-white flex  items-center justify-between pt-2 pb-1 xl:hidden  px-4'>
+            <div className='bg-black  w-full text-white flex  items-center justify-between pt-2 pb-1 xl:hidden  px-4'>
 
                 <div className="text-3xl">
                     {
@@ -47,7 +47,7 @@ const SubNavber = () => {
 
             {/* Sidebar */}
             <div
-                className={`z-30 xl:fixed flex flex-col justify-between overflow-y-auto bg-white w-64 h-full space-y-6 absolute top-[54px]  inset-y-0 left-0 transform ${isActive && '-translate-x-full'
+                className={`z-50 xl:fixed flex flex-col justify-between overflow-y-auto bg-white w-64 h-full space-y-6 absolute top-[54px]   inset-y-0 left-0 transform ${isActive && '-translate-x-full'
                     }  xl:translate-x-0  transition duration-200 ease-in-out`}
             >
                     <div className="flex flex-col mt-2 verflow-y-auto gap-2">

@@ -19,7 +19,7 @@ const Featured = () => {
                 <p className="mb-[30px]">Get Your Desired Product from Featured Category!</p>
             </div>
   
-            <div className="grid grid-cols-8 gap-5">
+            <div className="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-8 gap-5">
                 <FeaturedCard title={"AC"} image={image1}></FeaturedCard>
                 <FeaturedCard title={" Drone"} image={image2}></FeaturedCard>
                 <FeaturedCard title={"Gimbal"} image={image3}></FeaturedCard>

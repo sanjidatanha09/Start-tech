@@ -4,7 +4,7 @@ import { BsLaptop } from "react-icons/bs";
 const Category = () => {
     return (
         <div>
-            <div className="grid gap-5 grid-cols-4">
+            <div className="grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
                 <CategoryCard title={"Laptop Finder"} subTitle={"Find Your Laptop Easily"} icon={<BsLaptop />}></CategoryCard>
                 <CategoryCard title={"Laptop Finder"} subTitle={"Find Your Laptop Easily"} icon={<BsLaptop />}></CategoryCard>
                 <CategoryCard title={"Laptop Finder"} subTitle={"Find Your Laptop Easily"} icon={<BsLaptop />}></CategoryCard>
