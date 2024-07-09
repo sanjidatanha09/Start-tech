@@ -1,8 +1,18 @@
+import Banner from "../components/Banner";
+import Category from "../components/Category/Category";
+
 
 const Home = () => {
     return (
         <div>
-            this is home
+            {/* banner */}
+            <div className="py-6">
+                <Banner></Banner>
+            </div>
+            {/* category */}
+            <div className="py-6">
+                <Category></Category>
+            </div>
         </div>
     );
 };

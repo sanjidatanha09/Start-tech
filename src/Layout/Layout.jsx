@@ -10,7 +10,7 @@ const Layout = () => {
             <div className="bg-black text-white hidden xl:flex">
                 <Navber></Navber>
             </div>
-            <div>
+            <div className="">
                 <Submenu></Submenu>
             </div>
             <div className="xl:hidden">

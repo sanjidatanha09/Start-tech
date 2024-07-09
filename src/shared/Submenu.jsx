@@ -1,7 +1,7 @@
 
 const Submenu = () => {
     return (
-        <div className="bg-white py-4 shadow-md">
+        <div className="bg-white py-4 shadow-md w-full">
             <ul className="flex gap-3 justify-between font-bold text-sm max-w-[1320px] mx-auto">
                 <li>Desktop</li>
                 <li>Component</li>
