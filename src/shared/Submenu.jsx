@@ -1,9 +1,9 @@
 
 const Submenu = () => {
     return (
-        <div className="bg-white py-4 shadow-md w-full absolute">
+        <div className="bg-white py-4 shadow-md w-full absolute my-5">
             <ul className="flex gap-3 justify-between font-bold text-sm max-w-[1320px] mx-auto">
-                <li>Desktop</li>
+                <li>Desktops</li>
                 <li>Component</li>
                 <li>Monitor</li>
                 <li>UPS</li>

@@ -34,3 +34,9 @@
 body{
     z-index: 0;
 }
+
+@media (min-width: 1280px) {
+    .xl\:mt-14 {
+         margin-top: 2px !important;
+    }
+}
